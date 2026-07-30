@@ -1,0 +1,59 @@
+@use "mixins" as *;
+
+@mixin n-10 {
+    @include create-font(r(10), 400, 100%, 0.5%);
+}
+@mixin b-10 {
+    @include create-font(r(10), 700, r(16), 0.5%);
+}
+@mixin m-12 {
+    @include create-font(r(12), 500, 100%, 0.5%);
+}
+@mixin b-12 {
+    @include create-font(r(12), 700, 100%, 0.5%);
+}
+
+@mixin n-14 {
+    @include create-font(r(14), 400, 100%, 0.5%);
+}
+@mixin b-14 {
+    @include create-font(r(14), 700, 100%, 0.5%);
+}
+@mixin m-15 {
+    @include create-font(r(15), 500, r(22), 0.5%);
+}
+
+@mixin sb-15 {
+    @include create-font(r(15), 600, 100%);
+}
+@mixin b-15 {
+    @include create-font(r(15), 700, 100%);
+}
+@mixin n-16 {
+    @include create-font(r(16), 400, r(22), 0.5%);
+}
+@mixin m-16 {
+    @include create-font(r(16), 500, r(22), 0.5%);
+}
+@mixin sb-16 {
+    @include create-font(r(16), 600, 100%, 0.5%);
+}
+@mixin sb-20 {
+    @include create-font(r(20), 600, 100%, 0.5%);
+}
+@mixin m-20 {
+    @include create-font(r(20), 500, r(30), 0.5%);
+}
+@mixin m-24 {
+    @include create-font(r(24), 500, 100%, 0.5%);
+}
+@mixin sb-24 {
+    @include create-font(r(24), 600, 100%, 0.5%);
+}
+@mixin m-28 {
+    @include create-font(r(28), 500, r(44), 0.5%);
+}
+
+@mixin m-34 {
+    @include create-font(r(34), 500, r(50), 0.5%);
+}

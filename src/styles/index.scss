@@ -1,0 +1,5 @@
+/* _inject.scss — только то, что нужно внутри компонентов */
+@forward "tokens";
+@forward "mixins";
+@forward "typography";
+@forward "transitions";

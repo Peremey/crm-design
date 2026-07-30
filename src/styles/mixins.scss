@@ -1,0 +1,27 @@
+@use "sass:math";
+
+@mixin create-font(
+  $font-size: 14px,
+  $font-weight: normal,
+  $line-height: normal,
+  $letter-space: normal,
+  $text-transform: none,
+  $font-family: "Onest"
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-space;
+  font-family: $font-family;
+  text-transform: $text-transform;
+}
+
+@function r($value) {
+  @return math.div($value, 16) * 1rem;
+}
+
+@mixin pos-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

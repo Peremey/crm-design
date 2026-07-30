@@ -1,0 +1,1 @@
+export type { IMask } from '~/lib/validate/types'

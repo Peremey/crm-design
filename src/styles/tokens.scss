@@ -1,0 +1,22 @@
+@use "mixins" as *;
+
+$red: #fe353d;
+$red-d: #c70e15;
+$l-red: #ffede9;
+$l-green: #f2fae6;
+$green: #559100;
+$l-gray: #ebebeb;
+$m-gray: #b9b9b9;
+$icon-gray: #aeaeaf;
+$black: #1c1c1c;
+$time-gray: #979797;
+$gray: #676767;
+$bg: #f9f9f9;
+$brad: r(100);
+$bg-yellow: #fff8e9;
+$l-yellow: #ffe9bb;
+$yellow: #ffdf9a;
+$gr-yellow: repeating-linear-gradient(60deg, #fff 0, #fff r(10), $l-yellow r(10), $l-yellow r(18));
+$gr-gray: repeating-linear-gradient(60deg, #fff 0, #fff r(10), #f9f9f9 r(10), #f9f9f9 r(18));
+$blue: #0867c5;
+$field-border-color: #d4d4d5;
